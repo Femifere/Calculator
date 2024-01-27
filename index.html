@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="mode">
+        <button id="mode-change" onclick="modeChange()"><img src="images/Night.png" id="modePic"></button>
+    </div>
+    <div class="container">
+        <div class="inner">
+            <div class="calculator">
+                <div class="display">
+                    <div class="show" id="equ"></div>
+                    <div class="delete">
+                        <button id = "clear" onclick="display('clear')"><img src="images/Clear.png"></button>
+                    </div>
+                </div>
+                
+                <div class="arithmo">
+                    <button class="calculator-button" id="button-C" onclick="display('button-C')">C</button>
+                    <button class="calculator-button" id="button-parentheses" onclick="display('button-parentheses')">()</button>
+                    <button class="calculator-button" id="button-percent" onclick="display('button-percent')">%</button>
+                    <button class="calculator-button" id="button-divide" onclick="display('button-divide')">/</button>
+                    <button class="calculator-button" id="button-7" onclick="display('button-7')">7</button>
+                    <button class="calculator-button" id="button-8" onclick="display('button-8')">8</button>
+                    <button class="calculator-button" id="button-9" onclick="display('button-9')">9</button>
+                    <button class="calculator-button" id="button-multiply" onclick="display('button-multiply')">*</button>
+                    <button class="calculator-button" id="button-4" onclick="display('button-4')">4</button>
+                    <button class="calculator-button" id="button-5" onclick="display('button-5')">5</button>
+                    <button class="calculator-button" id="button-6" onclick="display('button-6')">6</button>
+                    <button class="calculator-button" id="button-minus" onclick="display('button-minus')">-</button>
+                    <button class="calculator-button" id="button-1" onclick="display('button-1')">1</button>
+                    <button class="calculator-button" id="button-2" onclick="display('button-2')">2</button>
+                    <button class="calculator-button" id="button-3" onclick="display('button-3')">3</button>
+                    <button class="calculator-button" id="button-plus" onclick="display('button-plus')">+</button>
+                    <button class="calculator-button" id="button-plus-minus" onclick="display('button-plus-minus')">+/-</button>
+                    <button class="calculator-button" id="button-0" onclick="display('button-0')">0</button>
+                    <button class="calculator-button" id="button-dot" onclick="display('button-dot')">.</button>
+                    <button class="calculator-button" id="button-equals" onclick="display('button-equals')">=</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
